@@ -1,0 +1,97 @@
+body{
+    background-color: brown;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.header{
+    width: 100%;
+    position: relative;
+}
+
+a{
+    color: white;
+    text-decoration: none;
+    margin: 20px;
+}
+.navbar li{
+    display: inline-block;
+    margin: 20px;
+}
+.Menu{
+    text-align: center;
+}
+p{
+    padding: 20px;
+}
+h2.menu{
+    padding: 20px;
+}
+p.menu{
+    padding: 20px;
+}
+ .row{
+    column-count: 3;}
+ .menu-col{
+    flex-basis: 31%;
+    padding: 20px 12px;
+    background: #fff3f3;
+    border-radius: 10px;
+    margin-bottom: 5%;
+    box-sizing: border-box;
+ }
+ footer{
+    background-color: black;
+    text-align: center;
+    margin-top: 5%;
+ }
+ p.footer{
+    color: white;
+ }
+form{
+    text-align: center;
+    box-sizing: border-box;
+}
+.form-control{
+    text-align: left;
+    margin-bottom: 25px;
+}
+.form-control input,
+.form-control select,
+.form-control textarea {
+    border: 1px solid #777;
+    border-radius: 2px;
+    font-family: inherit;
+    padding: 10px;
+    display: block;
+    width: 95%;
+}
+.form-control label {
+    display: block;
+    margin-bottom: 10px;
+}
+textarea{
+    display: flex;
+    justify-content: left;
+}
+.form{
+    background-color: grey;
+    max-width: 500px;
+    margin: 50px auto;
+    padding: 30px 20px;}
+#city{
+    width: 460px;
+}
+button{
+
+    display: flex;
+    justify-content: center;
+    border: #777;
+    border-radius: 5px;
+    display:block;
+    width: 100%;
+    margin-top: 50px;
+    margin-bottom: 20px;
+}
